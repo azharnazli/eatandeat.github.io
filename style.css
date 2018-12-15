@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+body {
+    background: #E0EAFC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+/* navigation place */
+nav {
+    height: 40px;
+    width: 100%;
+    background: #58bd31;
+    font-size: 11pt;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0 auto;
+    width: 500px;
+    height: 40px;
+}
+
+nav li {
+    display: inline;
+    float: left;
+}
+
+nav a {
+    color: #ffffff;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+nav a:hover {
+    background-color: #ecf0f1;
+    color: #333;
+}
+
+nav a#pull {
+    display: none;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 150px;
+}
+
+/* article place*/
+article {
+    display: inline-block;
+    width: 20%;
+    margin: 40px;
+    background-color: #82b66d81;
+}
+
+article img {
+    width: 250px;
+}
+
+.container {
+    text-align: center;
+}
+
+div article {
+    border: 2px solid black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.img-food {
+    height: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    margin-right: 45px;
+    margin-left: 45px;
+    text-align: justify;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #333;
+}
+
+#footer-tag {
+    padding: 40px;
+}
+
+#follow {
+    position: absolute;
+    display: inline-flex;
+    bottom: 30px;
+    right: 50px;
+
+}
+
+#icon {
+    top: 15;
+    width: 40px;
+    height: 40px;
+}
+
+.chef-container {
+    padding: 30px;
+    margin: 0 auto;
+    text-align: justify;
+    width: 50%;
+}
+
+td h3,
+td h5,
+td p {
+    line-height: 25px;
+    padding: 10px;
+    background: white;
+
+}
+
+.about-container {
+    margin: 50px;
+}
+
+.about-banner {
+    width: 100%;
+    height: 800px;
+}
+
+.img-child {
+    width: 150px;
+    height: 150px;
+}
+
+.form-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    margin: 0 auto;
+    width: 50%;
+}
+
+form {
+    margin: 0 auto;
+    width: 50%;
+    border: 2px solid grey;
+    text-align: center;
+    /* background-color: #333; */
+}
+
+#toleft {
+    position: absolute;
+    top: 50px;
+    left: 110px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#robot {
+    font-family: 'Roboto', sans-serif;
+}
+
+#opensans {
+    font-family: 'Open Sans', sans-serif;
+}
