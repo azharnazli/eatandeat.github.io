@@ -19,6 +19,12 @@ body {
 
 }
 
+.gobottom {
+    margin-top: 50px;
+    font-size: 58px;
+    font-style: italic;
+}
+
 header {
     position: fixed;
     width: 100%;
@@ -175,11 +181,14 @@ td p {
 }
 
 .about-banner {
+    margin: 10px 0x 10px 0px;
     width: 100%;
-    height: 800px;
+    height: 700px;
 }
 
 .img-child {
+    border: 1px solid black;
+    box-shadow: 2px 2px gray;
     border-radius: 10px;
     width: 350px;
     height: 250px;
