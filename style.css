@@ -86,12 +86,20 @@ article {
     background-color: #82b66d81;
 }
 
+
 article img {
     width: 250px;
 }
 
 .container {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: auto;
+    justify-content: center;
+}
+
+.ingredient {
+    padding: 20px;
 }
 
 div article {
@@ -106,7 +114,7 @@ div article {
 }
 
 .img-food {
-    height: 10%;
+    height: 150px;
     margin-top: 10px;
     margin-bottom: 10px;
 
@@ -172,8 +180,9 @@ td p {
 }
 
 .img-child {
-    width: 150px;
-    height: 150px;
+    border-radius: 10px;
+    width: 350px;
+    height: 250px;
 }
 
 .form-container {
@@ -194,11 +203,18 @@ form {
 
 #toleft {
     position: absolute;
-    top: 50px;
+    top: 170px;
     left: 110px;
+    width: 90%;
 }
 
-li {
+#flex-img {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+
+div ul li {
     list-style-type: none;
 }
 
